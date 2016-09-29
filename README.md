@@ -5,6 +5,8 @@
 Compatible with `Folder.jpg` from *Windows Explorer* and
 `.directory` FreeDesktop standard used by *Dolphin*.
 
+![screenshot](screenshot.png)
+
 ## Install
 
 You first need to patch *libfm* so it sends directories to
