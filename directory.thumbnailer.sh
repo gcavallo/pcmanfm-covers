@@ -29,9 +29,7 @@ done
 
 cover=$(cat "$input/.directory" | grep Icon= | cut -d'=' -f2-)
 
-if [[ -f "$output" ]]; then
-	exit 0;
-elif [[ -f "$input/$cover" ]]; then
+if [[ -f "$input/$cover" ]]; then
 	convert "$input/$cover" -thumbnail $size $output;
 	exit 0;
 elif [[ -f "$input/Folder.jpg" ]]; then
