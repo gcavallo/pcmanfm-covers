@@ -1,18 +1,18 @@
 # PCManFM Covers
 
-*Directory thumbnailer for PCManFM (gtk2/3 and qt).*
+**Directory thumbnailer for PCManFM (gtk2/3 and qt).**
 
-Compatible with `Folder.jpg` from **Windows Explorer** and
-`.directory` FreeDesktop standard used by **Dolphin**.
+Compatible with `Folder.jpg` from *Windows Explorer* and
+`.directory` FreeDesktop standard used by *Dolphin*.
 
 ## Install
 
-You first need to patch **libfm** so it sends directories to
+You first need to patch *libfm* so it sends directories to
 the thumbnailer. The patch is available [here](https://sourceforge.net/p/pcmanfm/bugs/1020/).
 
-If you are using **Arch Linux**, a patched package is available at the [AUR](https://aur.archlinux.org/packages/libfm-directory_thumbnails/).
+If you are using *Arch Linux*, a patched package is available at the [AUR](https://aur.archlinux.org/packages/libfm-directory_thumbnails/).
 
-Once you have a patched **libfm**, get the latest **pcmanfm-cover** [release](https://github.com/gcavallo/pcmanfm-cover/releases),
+Once you have a patched *libfm*, get the latest *pcmanfm-cover* [release](https://github.com/gcavallo/pcmanfm-cover/releases),
 and run `make install` as root from the terminal.
 
 ## Usage
@@ -34,7 +34,7 @@ Microsoft Windows computers.
 
 ## License
 
-	**pcmanfm-covers**
+	PCManFM Covers
 	Copyright (C) 2016  Gabriel Cavallo
 
 	This program is free software; you can redistribute it and/or modify
