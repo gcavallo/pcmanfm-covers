@@ -12,7 +12,7 @@ the thumbnailer. The patch is available [here](https://sourceforge.net/p/pcmanfm
 
 If you are using *Arch Linux*, a patched package is available at the [AUR](https://aur.archlinux.org/packages/libfm-directory_thumbnails/).
 
-Once you have a patched *libfm*, get the latest *pcmanfm-cover* [release](https://github.com/gcavallo/pcmanfm-cover/releases),
+Once you have a patched *libfm*, get the latest *pcmanfm-covers* [release](https://github.com/gcavallo/pcmanfm-covers/releases),
 and run `make install` as root from the terminal.
 
 ## Usage
