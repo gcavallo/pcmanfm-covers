@@ -10,6 +10,9 @@ install:
 	cp $(NAME) /usr/share/thumbnailers
 	cp $(NAME).sh /usr/local/bin
 
+clean:
+	rm -rf $(HOME)/.thumbnails
+
 uninstall:
 	rm /usr/share/thumbnailers/$(NAME)
 	rm /usr/local/bin/$(NAME).sh
