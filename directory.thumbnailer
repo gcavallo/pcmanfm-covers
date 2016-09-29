@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=directory.thumbnailer.sh
+Exec=directory.thumbnailer.sh -i %i -o %o -s %s
+MimeType=inode/directory;
