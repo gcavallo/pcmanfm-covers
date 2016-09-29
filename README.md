@@ -10,7 +10,7 @@ Compatible with `Folder.jpg` from *Windows Explorer* and
 You first need to patch *libfm* so it sends directories to
 the thumbnailer. The patch is available [here](https://sourceforge.net/p/pcmanfm/bugs/1020/).
 
-If you are using *Arch Linux*, a patched package is available at the [AUR](https://aur.archlinux.org/packages/libfm-directory_thumbnails/).
+If you are using Arch Linux, a patched package is available at the [AUR](https://aur.archlinux.org/packages/libfm-directory_thumbnails/).
 
 Once you have a patched *libfm*, get the latest *pcmanfm-covers* [release](https://github.com/gcavallo/pcmanfm-covers/releases),
 and run `make install` as root from the terminal.
